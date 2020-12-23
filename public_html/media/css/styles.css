@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3, h4 {
+    margin: 10px;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+    margin: 50px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr, td, th {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/*######################
+##  Form
+########################*/
+
+form {
+    width: 400px;
+    margin: 20px 0;
+    background-color: #2b3ac6;
+    padding: 20px;
+}
+
+form p {
+    font-weight: bold;
+}
+
+label {
+    font-family: Arial;
+}
+
+input {
+    padding: 7px;
+    margin: 5px;
+}
+
+textarea {
+    padding: 20px;
+}
+
+button {
+    padding: 7px;
+    margin: 5px;
+    background: #14ca17;
+    color: white;
+    width: 150px;
+    border: 2px solid white;
+    font-family: 'Bangers', cursive;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    color: orangered;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2b3ac6;
+}
+
+.modal .close {
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: .8em;
+}
+
+/*######################
+##  Navigation
+########################*/
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2b3ac6;
+    width: 100vw;
+    padding: 20px;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+a {
+    padding: 10px;
+    color: white;
+    background-color: #2b3ac6;
+    text-decoration: none;
+    /*margin: 30px;*/
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: 'Bangers', cursive;
+}
+
+a:hover {
+    color: black;
+}
+
+
+/*######################
+##  Index Page
+########################*/
+
+.header_ft {
+    width: 100vw;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.paslaugos {
+    display: flex;
+    justify-content: space-around;
+    width: 89%;
+    margin-top: 50px;
+}
+
+.iframas {
+    padding: 110px 110px 0px 110px;
+    width: width: 88.5%;;
+}
+
+footer {
+    background-color: #2b3ac6;
+    height: 100px;
+    width: 88.5%;
+
+}
+
+
